@@ -1,0 +1,5 @@
+﻿1. Add a Task
+2. List Tasks
+3. Mark Tasks as completed
+4. In List Tasks differentiate completed and incomplete tasks
+5. Remove a Task

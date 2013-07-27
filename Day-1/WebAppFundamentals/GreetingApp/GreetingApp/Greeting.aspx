@@ -43,6 +43,8 @@
 	
 	<input type="submit" name="btnSubmit" value="Greet">
 	</form>
-	
+    <div >
+        Greeting Count = 1
+    </div>
 </body>
 </html>

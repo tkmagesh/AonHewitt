@@ -88,6 +88,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Greeting.aspx" />
+    <Content Include="ServerControls.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -122,6 +123,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ServerControls.aspx.designer.vb">
+      <DependentUpon>ServerControls.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ServerControls.aspx.vb">
+      <DependentUpon>ServerControls.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
